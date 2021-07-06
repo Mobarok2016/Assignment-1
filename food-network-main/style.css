@@ -1,4 +1,4 @@
-*body{margin:0;padding:0}
+*body{margin:0;padding:0;}
 
 body{
     font-family: 'Lato', sans-serif;
@@ -15,11 +15,10 @@ body{
      
 
     }
+
 .flex img{
     width:80%;
 }
-
-
 .mid-width h1{
     font-size:30px;
     color:rgb(44, 42, 42);
@@ -34,7 +33,7 @@ body{
     margin-bottom: 80px;
 }
 
-a{
+.button a{
     text-decoration: none;
     color:white;
     background-image: linear-gradient(orange,tomato);
@@ -42,7 +41,6 @@ a{
     border-radius:20px ;
 }
 
-    
 .middle{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -51,12 +49,14 @@ a{
 width:300px;
 height:400px;
 margin:50px 100px;
+
 }
 
 .bottom{
     display:flex;
        
 }
+
 .recipe {
     border:1px solid white;
     border-radius: 10px;
@@ -72,7 +72,6 @@ margin:50px 100px;
     width:100%;
     border-radius: 10px;
     
-    
 }
 
 .lastDiv{
@@ -81,3 +80,38 @@ margin:50px 100px;
     text-align: center;
     margin:0 auto;
 }
+
+.extra{
+    display:flex;
+    margin:40px 30px;
+}
+
+#Online a{
+   text-decoration: none;
+   color:white;
+    padding:10px 15px;
+    background-color: tomato;
+    margin:10px;
+    
+}
+
+#Delivery a {
+    text-decoration: none;
+    color:white;
+     padding:10px 15px;
+     background-color: rgb(83, 81, 81);
+     margin-top:10px;
+     
+     
+}
+
+footer{
+    text-align:center;
+    height:100px;
+    width:100%;
+    background-color: rgb(46, 44, 53);
+    color:white;
+    padding-top:5px;
+    padding-bottom: 20px;
+   
+    }
